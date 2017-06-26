@@ -4,9 +4,11 @@
 ## Instructions
 
 ### Untar the director and Observer files
+
+```
 tar -xvf director.tar.gz
 tar -xvf observer.tar.gz
-
+```
 
 ###  You will need to modify the network configuration of both the observer and the director to connect the appropriate networks. In the example below, we connect to the VM to the default network. You can check the avaiable networks domains by issuing the command 'virsh net-list' as shown below
 
