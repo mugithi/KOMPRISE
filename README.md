@@ -73,7 +73,7 @@ $ cp -r observer/ observer-3
   <vcpu>1</vcpu>
 ```
 
-- Import the director and observer virtual machines into libvirt my issuing the comand 'virsh open <Path-to-xml-file.xml>'
+- Import the director and observer virtual machines into libvirt my issuing the comand ```virsh open <Path-to-xml-file.xml>```
 
 ```
 $ virsh open komprise-centos-2.4-on-premise.xml
