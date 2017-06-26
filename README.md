@@ -3,7 +3,7 @@
 
 ## Instructions
 
-#Untar the director and Observer files
+### Untar the director and Observer files
 tar -xvf director.tar.gz
 tar -xvf observer.tar.gz
 
