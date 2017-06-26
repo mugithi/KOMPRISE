@@ -28,7 +28,7 @@ $ vi komprise-centos-20170526.xml
       <source network='default'/>
       <model type='virtio'/>
     </interface>
-````
+```
 
 Modify the director and observer xml to point to the path to disk
 
@@ -37,9 +37,6 @@ $ cd director
 $ ls -al
 -rw-r--r--  1 root   root   7314931712 Jun 26 15:38 komprise-centos-2.4-on-premise-sda
 -rw-r--r--  1 dasher dasher       1324 Jun 26 15:36 komprise-centos-2.4-on-premise.xml
-```
-
-Edit the lines to point to the path location of the VM files
 
 <devices>
     <disk type='file' device='disk'>
@@ -47,7 +44,7 @@ Edit the lines to point to the path location of the VM files
       <source file='/home/dasher/director/komprise-centos-2.4-on-premise-sda'/>
       <target dev='vda' bus='virtio'/>
     </disk>
-
+```
 
 
 ### For the Observers ONLY
